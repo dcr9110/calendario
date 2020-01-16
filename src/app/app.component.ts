@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'calendario';
+  visible= true;
+  quien='joker';
+  decirAdios(){
+    this.visible = false;
+  }
+
 }
