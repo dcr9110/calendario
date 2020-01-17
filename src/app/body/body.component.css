@@ -1,0 +1,14 @@
+#dia{
+    height: 600px;
+    background-color: blue;
+}
+
+#mes{
+    height: 600px;
+    background-color: blueviolet;
+}
+
+#anio{
+    height: 600px;
+    background-color: brown;
+}
