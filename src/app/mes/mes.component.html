@@ -1,0 +1,19 @@
+<div id="mes">
+    <h1>{{nombreDeMes}}</h1>
+    <div class="table-responsive-md">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col" *ngFor="let dia of diasDeSemana">{{dia}}</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let numero of semanaNum">
+                    <th scope="row">{{numero}}</th>
+                    <td *ngFor="let agenda of agendaDeSemana">{{agenda}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

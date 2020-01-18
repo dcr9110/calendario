@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BodyComponent } from './body/body.component';
 import { DiaComponent } from './dia/dia.component';
+import { MesComponent } from './mes/mes.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DiaComponent } from './dia/dia.component';
     HeaderComponent,
     FooterComponent,
     BodyComponent,
-    DiaComponent
+    DiaComponent,
+    MesComponent
   ],
   imports: [
     BrowserModule,
