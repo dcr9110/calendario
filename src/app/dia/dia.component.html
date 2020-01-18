@@ -1,0 +1,26 @@
+<div id="dia">
+    <div class="row">
+        <div class="col">
+            <table class="table table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">#horas</th>
+                        <th scope="col">Agenda</th>
+                        <th scope="col">#horas</th>
+                        <th scope="col">Agenda</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let maniana of manianas let tarde of tardes">
+                        <th scope="row">{{maniana}}</th>
+                        <td>libre mañana</td>
+                        <th scope="row">{{tarde}}</th>
+                        <td>libre tarde</td>
+                    </tr>
+            
+                </tbody>
+            </table>
+            
+    </div>
+</div>
+
